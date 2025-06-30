@@ -43,8 +43,8 @@ So our next topic is Kernel and shell.
  
      directory.              function
    
-   /root:                The top level       directory from which all other directories work.
+     /root:                The top level       directory from which all other directories work.
      
-   /bin:                Contains executable      files.
+     /bin:                Contains executable      files.
    
-   /boot:                Stores files needed for booting the system including kernel.
+     /boot:                Stores files needed for booting the system including kernel.
