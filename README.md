@@ -52,3 +52,19 @@ So our next topic is Kernel and shell.
      /dev:                 Contain device files that represents hardware devices.
 
      /home:                Personal directories from user.
+
+     /lib:                 Contain library files.
+     
+     /media:               Mount point for removable media like USB drives.
+
+     /mnt:                 Temporary Mount point for file systems.
+ 
+     /opt:                 Contain optional apps.
+   
+     /srv:                 Contains data for services provided by system.
+
+     /tmp:                 Store temporary files.
+
+     /usr:                 Contains user related programs, libraries and documents.
+ 
+     /var:                 Stores variable data like log files,user tracking.
