@@ -114,11 +114,12 @@ So our next topic is Kernel and shell.
 10.whereis[command]
 11.whatis[command]
 
+ 27/06/2025
 
-27/06/2025
-
-Dual booting:
- 
-
+ :Dual  booting: in this two operating system can be used in one computer.we have to choose which system to use.
+ :Bare metal installation:Installing an operating system directly on physical computer,not inside VMware.The operating system can be installed using pen drive.
+ :Meta installation:Installing a package that installs many other related packages.we install one thing,it brings bunch of things with it.
+ :Partitioning Scheme:Dividing hard disk into sections so that each part can be used for different purpose.Linux uses multiple partitions to keep the system organised,secure and flexible.
+ 1.MBR(Master Boot Record):the installer automatically creates
  
 
