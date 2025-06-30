@@ -1,3 +1,4 @@
+
 25/06/2025
  
 My first day in training is very valuable to me.Our first topic is about linux.
@@ -93,5 +94,21 @@ So our next topic is Kernel and shell.
 
     whereis.              show location of binary,source 
 
-    whatis.               To get information about command.
+    whatis.               To get
+ information about command.
+
+
+•Syntax of command:
+ 
+1.ls(optional)
+2.date
+3.whoami
+4.cd[directory]
+5.mkdir directory_name
+6.cat>filename
+7.touch filename
+8.cp[source]
+9.pwd
+10.whereis[command]
+11.whatis[command]
 
