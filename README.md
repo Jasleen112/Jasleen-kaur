@@ -68,3 +68,9 @@ So our next topic is Kernel and shell.
      /usr:                 Contains user related programs, libraries and documents.
  
      /var:                 Stores variable data like log files,user tracking.
+
+   •Commands: 
+   
+    commands.                description 
+ 
+    ls
