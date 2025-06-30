@@ -26,7 +26,9 @@ So that's it from my 1st day of training
 1.Cold/Hard boot:Starting the computer from power off state.Ex.Mac,Linux
 2.Warm/Soft boot:Restarting the computer without power off.ex.windows.
 
+
 26/06/2025
+
 
 So our next topic is Kernel and shell.
 •What is Kernel?
@@ -111,4 +113,12 @@ So our next topic is Kernel and shell.
 9.pwd
 10.whereis[command]
 11.whatis[command]
+
+
+27/06/2025
+
+Dual booting:
+ 
+
+ 
 
