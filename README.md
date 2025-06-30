@@ -48,3 +48,7 @@ So our next topic is Kernel and shell.
      /bin:                Contains executable      files.
    
      /boot:                Stores files needed for booting the system including kernel.
+
+     /dev:                 Contain device files that represents hardware devices.
+
+     /home:                Personal directories from user.
