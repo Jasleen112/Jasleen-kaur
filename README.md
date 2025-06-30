@@ -71,6 +71,27 @@ So our next topic is Kernel and shell.
 
    •Commands: 
    
-    commands.                description 
+    commands.                description           
  
-    ls
+    ls.                   list the contents
+ 
+    date.                 show the current date and time.
+
+    whoami.               Display current user name.
+ 
+    cd.                   change directory.
+
+    mkdir.                make a new directory.
+
+    cat.                  Create list with contents.
+
+    touch.                Create file with contents.
+
+    cp.                   copy the files 
+
+    pwd.                  print the current working directory.
+
+    whereis.              show location of binary,source 
+
+    whatis.               To get information about command.
+
