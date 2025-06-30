@@ -39,12 +39,12 @@ So our next topic is Kernel and shell.
 •Categories of shell:1.Command line shell
                      2.Graphical shell
 
-   •File system structure:
+       •File system structure:
  
-   directory.              function
+     directory.              function
    
- /root:                The top level       directory from which all other directories work.
-    
- /bin:                Contains executable      files.
+   /root:                The top level       directory from which all other directories work.
+     
+   /bin:                Contains executable      files.
    
- /boot:                Stores files needed for booting the system including kernel.
+   /boot:                Stores files needed for booting the system including kernel.
