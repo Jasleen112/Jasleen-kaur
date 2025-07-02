@@ -116,10 +116,22 @@ So our next topic is Kernel and shell.
 
  27/06/2025
 
- :Dual  booting: in this two operating system can be used in one computer.we have to choose which system to use.
- :Bare metal installation:Installing an operating system directly on physical computer,not inside VMware.The operating system can be installed using pen drive.
- :Meta installation:Installing a package that installs many other related packages.we install one thing,it brings bunch of things with it.
- :Partitioning Scheme:Dividing hard disk into sections so that each part can be used for different purpose.Linux uses multiple partitions to keep the system organised,secure and flexible.
- 1.MBR(Master Boot Record):the installer automatically creates
+ DUAL BOOTING: in this two operating system can be used in one computer.we have to choose which system to use.
  
+ BARE METAL INSTALLATION:Installing an operating system directly on physical computer,not inside VMware.The operating system can be installed using pen drive.
+ 
+ META INSTALLING:Installing a package that installs many other related packages.we install one thing,it brings bunch of things with it.
+ 
+ PARTIONING SCHEME:Dividing hard disk into sections so that each part can be used for different purpose.Linux uses multiple partitions to keep the system organised,secure and flexible.
+ 1.MBR(Master Boot Record):maximum 4 primary partitions.Support upto 2TB.it has less flexibility.
+ 2.GPT(Guid Partition Table):It supports upto 128 partitions.It supports disks larger than 2TB.It is more flexible.
+
+ FILE AND DIRECTORY PERMISSIONS:It is the backbone of linux security ensuring that authorized user can interact.
+ 
+ TYPES OF COMMANDS:
+ 1.chmod(change mode):
+
+                  a.It is used to change the permissions like read,write,execute.
+                    Syntax- chmod[permission] [filename]
+                  b.  
 
