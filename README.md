@@ -133,5 +133,130 @@ So our next topic is Kernel and shell.
 
                   a.It is used to change the permissions like read,write,execute.
                     Syntax- chmod[permission] [filename]
-                  b.  
+                  b.  chmod +x filename.sh
+                          x enables files to execute.
+                  c.  chmod 444 filename.sh 
+                         Give permission to read files.
+                  d.  chmod 644 filename.sh 
+                        It enables permissions only to owner 2.
+2.chown(change owner):
 
+                  Syntax:group file.txt
+           change owner to user change the group to group so that other users in that group can access the file.
+
+REDIRECTION:Redirection means sending the output or input of a command to somewhere else.
+
+                      Redirection operators
+
+       Type                 Symbol                  Example              
+      Output                  >                    echo "Hello" > file.txt
+      Append                  >>                   echo "World" >> file.txt
+      Input                   <                      wc -l < file.txt
+
+ PIPE IN LINUX
+
+ PIPE:Take the output of one command and pass it to other command.
+        Syntax
+      command1|command 2
+      command 1-generates output 
+      command 2-takes that output as input
+
+SHELL PROGRAMS:
+
+1.Use of variables:
+
+2.Multiplication table of any number:
+
+3.Compare two variable:
+
+30/6/2025
+
+FILE COMPRESSION:File compression in linux,helping to reduce the sizes of files.
+
+USE OF FILE COMPRESSION: 
+Save storage space:Compressed file take up less disk space,allowing you to store more data.
+Faster transmission:Smaller files transfer more quickly over networks.
+
+There are several commands available for compressing files:
+1.Gzip:uses to compress file.It reduce the size of the file.It compress the filename and replace it with filename.gz.
+  Syntax - gzip filename 
+example-gzip notes.txt creates notes.txt.gz and delets notes.txt
+
+This command will compress notes.txt and creates new file named notes.txt.gz,replacing the original file.
+DECOMPRESS A FILE:to decompress the files we can use gunzip command.
+
+ gunzip  notes.txt.gz
+This will decompress the file and remove the .gz extension,restoring the original notes.txt file.
+
+WILDCARD COMMANDS-Matches file without full names.
+
+    Symbol                     Meaning 
+     *                       matches zero or more character 
+     ?                       matches exactly one character 
+     [abc]                   matches one character from set
+     [a-z]                   matches any character in range
+
+ ESCAPING CHARACTERS:Means using a special symbol before a character to tell the computer to treat that character literally,not as special or reserved symbol.
+
+       character to escape                       How to escape                               Meaning 
+
+       space()                             Using backslash\ or quotes                    to treat space as a part of filename or command argument.
+       Backslash(\)                        Use double backslash \\                       to represent a literal backslash.
+       Dollar sign($)                      Use backslash  \$                             to prevent variable expansion.
+       Asterisk(*)                         Use backslash  \*                             to treat * literally,not as a wildcard.
+       Question Mark(?)                    Use backslash/?                               to treat ? literally ,not as a single character wildcard. 
+       Quotes(" or ')                      Use backslash\" or \'                         to include quotes in strings.
+       Brackets([])                        Use backslash\[ and \]                        to treat brackets literally.
+
+  QUOTES:
+
+             QuoteType                          Syntax                                         Description
+
+          Single quotes                         'text'                                    Preserves literal value of all characters inside.
+          Double quotes                         "text"                                    Preserves most character literally,but allows variable expansion and command substitution.
+          Backslash                             \char                                     Escapes the next character to be treated literally
+
+
+HARDWARE:Computer hardware refers to the physical components of a computer that you can see and touch.These components work together to process input and deliver output based on user 
+         instructions.In this article,we'll explore the different types of computer hardware,their functions and how they interact to make your computer work.
+
+The computer has mainly has two major components:
+
+                 HARDWARE TYPE                           DESCRIPTION 
+
+         Input Devices                           Devices allows user to interact with computer by entering data or commands.
+                                                 These devices convert the input into a format that the computer can process.
+
+         Output Devices                          Output devices display the result of tasks given to the computer in a human-readable form.
+
+         Storage Devices                         Some devices are used for storage purposes and are known as secondary storage devices.
+
+         Processing Unit                         Components that process data and execute instructions.
+
+         Memory                                  Temporary storage used by the CPU to hold data and instructions.
+
+         Motherboard                             It is the main circuit board inside the computer and it contains most of the electronic components 
+                                                 together.All the components of the computer are directly or indirectly connected to the motherboard.
+
+         Power Supply                            All of a computer system's parts are powered by power source.
+
+         Networking Hardware                     Devices that connect computers and enables communication.
+
+
+MOTHERBOARD:A motherboard is the main circuit board of a computer.It is the central platform that connects and allows communication between all the different parts of a computer.
+
+               Components                                     Description 
+
+         CPU Socket                                     The slot where the processor is installed.
+         RAM Slots(DIMM)                                Slots for installing memory modules(RAM)
+         Chipset                                        Manages data flow between CPU,memory and peripherals.
+         BIOS/UEFI Chip                                 Firmware that initialize hardware during boot-up
+         Power Connectors                               Connectors for power supply to distribute electricity to components.
+         Expansion Slots                                Slots (PCI,PCIe) for adding graphics cards,network cards etc.
+         SATA Ports                                     Connectors for storage devices like HDDs and SSDs.
+         M.2 Slots                                      Connectors for modern-high speed SSDs.
+         CMOS Battery                                   Powers the BIOS memory to retain settings when the PC is off
+         USB Headers                                    connectors for USB ports on the front or back panel
+         Audio connectors                               Ports for audio input/output devices
+         Network Ports(Ethernet)                        Connectors for wired network connections
+         
