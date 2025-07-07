@@ -258,9 +258,25 @@ MOTHERBOARD:A motherboard is the main circuit board of a computer.It is the cent
          CMOS Battery                                   Powers the BIOS memory to retain settings when the PC is off
          USB Headers                                    connectors for USB ports on the front or back panel
          Audio connectors                               Ports for audio input/output devices
-         Network Ports(Ethernet)                        Connectors for wired network connections
+         Network Ports(Ethernet)                        Connectors for wired network connection
 
-  
-    
-      ![image](https://github.com/user-attachments/assets/82cb11ec-e441-4fc6-90f6-48496e10beed
+
+1/07/2025
+
+GPU(GRAPHICS PROCESSING UNIT):GPU stands for Graphics Processing Unit.It is a specialized electronic circuit designed to rapidly process and manipulate images and graphics.Today GPUs                                  are also used for many other computing tasks beyond graphics,including artificial intelligence and scientific computing.
+
+TYPES OF GPUs: 1.INTEGRATED GPU:It is built in the CPU.It is less powerful.e.g.Intel UHD.
+               2.DEDICATED GPU:It is a separate hardware.It is very powerful,ideal for gaming and heavy tasks.
+USES:Video games,video editing,artificial intelligence,scientific simulations.
+
+PCU(PERSONAL COMPUTER UNIT):INSTALLATION AND HARD DISK PREPARATION:
+PARTITIONING:The first step of partitioning is to organize the hard disk into Primary(C:Drive).
+             Avoid storing personal/important files in C-Drive.
+
+WHY C-DRIVE IS NOT RECOMENDED TO STORE IMPORTANT FILES?
+Because in case if windows crashes,files in D,E,F-Drive are safer and can often be recovered.If we put files in same drive then there will be Data lose if windows get crashed.
+
+OPTIMISATION:Optimisation means making something as good,efficient or effective as possible.In computer world,ir refers to speeding up software or hardware so it runs faster or uses                  fewer resources improving algorithms to solve problems more efficiently.
+
+DEFRAGMENTATION:It is the process of reorganizing fragmented data on a hard disk so that related pieces are stored close together.This improves
 
