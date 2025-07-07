@@ -259,4 +259,6 @@ MOTHERBOARD:A motherboard is the main circuit board of a computer.It is the cent
          USB Headers                                    connectors for USB ports on the front or back panel
          Audio connectors                               Ports for audio input/output devices
          Network Ports(Ethernet)                        Connectors for wired network connections
-         
+
+         ![image](https://github.com/user-attachments/assets/82cb11ec-e441-4fc6-90f6-48496e10beed)
+
