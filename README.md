@@ -3,76 +3,67 @@
  
 My first day in training is very valuable to me.Our first topic is about linux.
 Linux is a operating system which is completely different from windows.
-:Difference between linux and windows
-   1.Linux is a open source system i.e
-     anybody can download it whereas      
-     windows is not a open source system.
-   2.Linux is free of cost while windows 
-     requires licensing which varies by 
-     designing and usage.
-   3.In linux,there is no money required   
-     whereas windows requires purchases.
-: How to download Linux
- 1.Firstly we need a virtual box in which  
-   we can add linux.
+DIFFERENCE BETWEEN LINUX AND WINDOWS:
+   1.Linux is a open source system i.e anybody can download it whereas windows is not a open source system.
+   2.Linux is free of cost while windows requires licensing which varies by designing and usage.
+   3.In linux,there is no money required  whereas windows requires purchases.
+ HOW TO DOWNLOAD LINUX:
+ 1.Firstly we need a virtual box in which we can add linux.
  2.We need a ISO file.
- 3.We need to download microsoft visual 
-   C++.
-: Career opportunities 
-  I explore more about my career that what is have to do after my degree or in my degree.
-My dream is that I work in cyber security companies.
-So that's it from my 1st day of training
-••Booting:It is the process of stating a computer.It is of two types:
-1.Cold/Hard boot:Starting the computer from power off state.Ex.Mac,Linux
-2.Warm/Soft boot:Restarting the computer without power off.ex.windows.
+ 3.We need to download microsoft visual C++.
+CARRER OPPORTUNITIES:
+  I explore more about my career that what is have to do after my degree or in my degree.My dream is that I work in cyber security companies.So that's it from my 1st day of training
+BOOTING:It is the process of stating a computer.It is of two types:
+1.COLD/HARD BOOT:Starting the computer from power off state.Ex.Mac,Linux
+2.WARM/SOFT BOOT:Restarting the computer without power off.ex.windows.
 
 
 26/06/2025
 
 
 So our next topic is Kernel and shell.
-•What is Kernel?
+WHAT IS KERNEL?
  It is the core of computer that is responsible for working of the computer.
-•What is shell?
+WHAT IS SHELL?
  It acts as a interface between user and operating system.
-•Types of shell:1.Bash:most common shell
-                2.sh:original shell
-                3.zsh:more features 
-                4.fish:modern,interactive
-•Categories of shell:1.Command line shell
+TYPES OF SHELL: 1.BASH:most common shell
+                2.SH:original shell
+                3.ZSH:more features 
+                4.FISH:modern,interactive
+CATEGORIES OF SHELL: 1.Command line shell
                      2.Graphical shell
 
-       •File system structure:
- 
-     directory.              function
+       FILE SYSTEM STRUCTUTRE:
+       
+     DIRECTORY                              FUNCTION
    
-     /root:                The top level       directory from which all other directories work.
+     /root:                   The top level directory from which all other directories work.
      
-     /bin:                Contains executable      files.
+     /bin:                   Contains executable files.
    
-     /boot:                Stores files needed for booting the system including kernel.
+     /boot:                  Stores files needed for booting the system including kernel.
 
-     /dev:                 Contain device files that represents hardware devices.
+     /dev:                   Contain device files that represents hardware devices.
 
-     /home:                Personal directories from user.
+     /home:                   Personal directories from user.
 
-     /lib:                 Contain library files.
+     /lib:                    Contain library files.
      
-     /media:               Mount point for removable media like USB drives.
+     /media:                  Mount point for removable media like USB drives.
 
-     /mnt:                 Temporary Mount point for file systems.
+     /mnt:                    Temporary Mount point for file systems.
  
-     /opt:                 Contain optional apps.
+     /opt:                    Contain optional apps.
    
-     /srv:                 Contains data for services provided by system.
+     /srv:                    Contains data for services provided by system.
 
-     /tmp:                 Store temporary files.
+     /tmp:                    Store temporary files.
 
-     /usr:                 Contains user related programs, libraries and documents.
+     /usr:                    Contains user related programs, libraries and documents.
  
-     /var:                 Stores variable data like log files,user tracking.
+     /var:                    Stores variable data like log files,user tracking.
 
-   •Commands: 
+   COMMANDS:
    
     commands.                description           
  
@@ -96,11 +87,10 @@ So our next topic is Kernel and shell.
 
     whereis.              show location of binary,source 
 
-    whatis.               To get
- information about command.
+    whatis.               To get information about command.
 
 
-•Syntax of command:
+SYNTAX OF COMMANDS:
  
 1.ls(optional)
 2.date
@@ -278,5 +268,42 @@ Because in case if windows crashes,files in D,E,F-Drive are safer and can often 
 
 OPTIMISATION:Optimisation means making something as good,efficient or effective as possible.In computer world,ir refers to speeding up software or hardware so it runs faster or uses                  fewer resources improving algorithms to solve problems more efficiently.
 
-DEFRAGMENTATION:It is the process of reorganizing fragmented data on a hard disk so that related pieces are stored close together.This improves
+DEFRAGMENTATION:It is the process of reorganizing fragmented data on a hard disk so that related pieces are stored close together.This improves files access speed and overall system                     performance on traditional HDDs.It's not nedded for SSDs,which use a different methods called TRIM.
 
+DRIVERS:Drivers are software that let the operating system communicate with hardware like printers,keyboards or graphic cards.Without them,hardware won't work properly.
+ISSUES FACED WHILE USING PRINTER: 1.Printer not printing:Cause - connectivity issues or outdated drivers.
+                                                         Solution - Check cables/wifi,restart printer and PC,reinstall or update drivers.
+                                  2.Paper jams:Cause - Misaligned or poor-quality paper.
+                                               Solution - Gently remove jammed paper,align guide,use recommended paper type.
+                                  3.Slow printing:Cause - High-resolution settings or complex documents.
+                                                  Solution - lower printing quality settings,use draft mode for basic prinnts.
+                                  4.Poor print quality:Cause - Dirty print heads or low.
+                                                       Solution - Run print head cleaning utility,check ink levels.
+                                  5.Printer offline:Cause - Network or driver issues.
+                                                    Solution - Reconnect to network,set printer as default,restart spooler service
+
+BSOD(BLUE SCREEN OF DEATH):It is an error screen displayed by the Windows Operating System when the system encounters a critical error that it cannot recover from,causing the system to                             crash.
+
+WHAT CAUSES A BSOD?
+ 1.Hardware failures - such as faulty Ram,hard drives or overheating.
+ 2.Driver issues - incompatible or corrupt device drivers.
+ 3.Corrupt system files - essential files missing or damaged.
+ 4.Overclocking - pushing hardware beyond its rated limit.
+ 5.Software bugs - Buggy updates or malicious software.
+ 6.Power supply issues - sudden shutdown or unstable power.
+
+WHAT HAPPENS DURING A BSOD?
+:The screen turns blue.
+:An error message is shown(e.g.CRITICAL_PROCEED_DIED)
+:A stop code is displayed (helps in diagnosing the error).
+:Sometimes, a QR code or file name is included.
+
+HOW TO FIX BSOD?
+1.Restart the computer - sometimes it's just a one-time issue.
+2.Update drivers - Use device Manager or Windows Update.
+3.Check Hardware - Run memory tests or disk checks.
+4.Scan for viruses/malware.
+5.Uninstall recent updates or apps - Especially if the BSOD started afterward.
+6.Use system restore - Roll back to a stable point.
+
+ 
